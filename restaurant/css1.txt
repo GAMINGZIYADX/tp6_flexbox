@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: #222;
+    background: #f4f4f4;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* En-tête */
+.entete {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: #0b2545;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.panier {
+    margin-left: auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Cartes */
+.plats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.plat {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.plat img {
+    width: 100%;
+    display: block;
+}
+
+.plat h2,
+.plat p {
+    margin: 0;
+    padding: 0.75rem 1rem 0;
+}
+
+.plat p {
+    color: #555;
+}
+
+.pied {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.prix {
+    font-weight: bold;
+}
+
+.ajouter {
+    padding: 0.5rem 1rem;
+    background: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}

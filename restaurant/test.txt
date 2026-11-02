@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="entete">
+        <img src="images/logo.png" alt="Atlas Food" class="logo">
+        <nav class="menu">
+            <a href="#">Menu</a>
+            <a href="#">Offres</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="panier">Panier (2)</a>
+    </header>
+    <main>
+        <h1>Nos plats</h1>
+        <section class="plats">
+            <article class="plat">
+                <img src="images/tajine.jpg" alt="Tajine de poulet aux olives">
+                <h2>Tajine de poulet</h2>
+                <p>Poulet, olives et citron confit.</p>
+                <div class="pied">
+                    <span class="prix">75 DH</span>
+                    <a href="#" class="ajouter">Ajouter</a>
+                </div>
+            </article>
+            <article class="plat">
+                <img src="images/couscous.jpg" alt="Couscous aux sept légumes">
+                <h2>Couscous royal</h2>
+                <p>Semoule fine vapeur, agneau tendre, merguez grillées, poulet rôti et sept légumes de saison mijotés dans un bouillon parfumé au safran et aux épices.</p>
+                <div class="pied">
+                    <span class="prix">95 DH</span>
+                    <a href="#" class="ajouter">Ajouter</a>
+                </div>
+            </article>
+            <article class="plat">
+                <img src="images/pastilla.jpg" alt="Pastilla au poulet">
+                <h2>Pastilla</h2>
+                <p>Feuilles croustillantes, poulet et amandes.</p>
+                <div class="pied">
+                    <span class="prix">85 DH</span>
+                    <a href="#" class="ajouter">Ajouter</a>
+                </div>
+            </article>
+            <article class="plat">
+                <img src="images/harira.jpg" alt="Bol de harira">
+                <h2>Harira</h2>
+                <p>Soupe traditionnelle de tomates, lentilles et pois chiches, servie avec des dattes et du chebakia.</p>
+                <div class="pied">
+                    <span class="prix">30 DH</span>
+                    <a href="#" class="ajouter">Ajouter</a>
+                </div>
+            </article>
+            <article class="plat">
+                <img src="images/tanjia.jpg" alt="Tanjia marrakchia">
+                <h2>Tanjia</h2>
+                <p>Viande de bœuf cuite lentement, confite au cumin et au citron.</p>
+                <div class="pied">
+                    <span class="prix">90 DH</span>
+                    <a href="#" class="ajouter">Ajouter</a>
+                </div>
+            </article>
+            <article class="plat">
+                <img src="images/salade.jpg" alt="Salade marocaine">
+                <h2>Salade marocaine</h2>
+                <p>Tomates, concombres, oignons et coriandre fraîche, assaisonnés d'huile d'olive, de citron et d'une pointe de cumin.</p>
+                <div class="pied">
+                    <span class="prix">35 DH</span>
+                    <a href="#" class="ajouter">Ajouter</a>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
